@@ -319,7 +319,7 @@ Several evaluation techniques are used.
 
 ## Training Curves
 
-![Training Curves](download (1).png)
+![Training Curves](download(1).png)
 
 ### Accuracy Curve
 
