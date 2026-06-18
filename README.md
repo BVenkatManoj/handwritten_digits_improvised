@@ -319,6 +319,8 @@ Several evaluation techniques are used.
 
 ## Training Curves
 
+![Training Curves](download(1).png)
+
 ### Accuracy Curve
 
 Shows improvement in prediction accuracy across epochs.
