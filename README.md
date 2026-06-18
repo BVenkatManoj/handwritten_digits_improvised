@@ -709,4 +709,4 @@ This project demonstrates the complete lifecycle of a modern AI application, fro
 
 Machine Learning & Deep Learning Enthusiast
 
-Passionate about Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, and Full-Stack AI Applications.
+Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Full-Stack AI Applications.
