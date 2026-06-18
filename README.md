@@ -343,7 +343,7 @@ Random MNIST samples are displayed with:
 
 A confusion matrix is generated to analyze:
 
-![Confusion Matrix](images/confusion_matrix.png)
+![Confusion Matrix](download.png)
 * Correct classifications
 * Misclassifications
 * Per-class performance
