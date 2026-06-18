@@ -523,6 +523,129 @@ In Browser
 
 ---
 
+# 📥 Getting the Project
+
+Clone the repository to your local machine using Git:
+
+```bash
+git clone https://github.com/your-username/digit-recognizer.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd digit-recognizer
+```
+
+---
+
+# ⚙️ Installation & Setup
+
+### 1. Create a Virtual Environment (Recommended)
+
+**Windows**
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+**Linux / macOS**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+---
+
+### 2. Install Dependencies
+
+Install all required packages listed in `requirements.txt`:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Verify Project Structure
+
+Ensure the project directory contains:
+
+```plaintext
+digit-recognizer/
+│
+├── handwritten_digits_model.ipynb
+├── app.py
+├── handwritten_digits.keras
+├── requirements.txt
+│
+└── templates/
+    └── index.html
+```
+
+---
+
+### 4. Launch the Flask Application
+
+Start the backend server:
+
+```bash
+python app.py
+```
+
+If the application starts successfully, you should see output similar to:
+
+```plaintext
+* Running on http://127.0.0.1:5000
+```
+
+---
+
+### 5. Open the Web Application
+
+Open your browser and visit:
+
+```plaintext
+http://127.0.0.1:5000
+```
+
+You can now draw handwritten digits on the canvas and receive real-time predictions from the trained CNN model.
+
+---
+
+# 🧪 Running the Training Notebook
+
+If you want to retrain the model:
+
+1. Open Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+or
+
+```bash
+jupyter lab
+```
+
+2. Open:
+
+```plaintext
+handwritten_digits_model.ipynb
+```
+
+3. Run all cells to:
+
+   * Load and preprocess the MNIST dataset
+   * Train the CNN model
+   * Evaluate performance
+   * Generate visualizations
+   * Export a new `handwritten_digits.keras` model
+
+
 # 🎓 Key Learning Outcomes
 
 * Convolutional Neural Networks (CNNs)
